@@ -1,0 +1,29 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="theme-color" content="#000000">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+
+    <title>Fundraiser Admin</title>
+</head>
+<body>
+
+<h3>
+    update takings & target:
+</h3>
+<form action="/api/state/update" method="POST">
+    <label for="takings">Takings</label>
+    <input name="takings" />
+    <br/>
+    <label for="fundraisingTarget">FundraisingTarget</label>
+    <input name="fundraisingTarget" />
+    <br/>
+    <br/>
+    <input type="submit" value="Submit" />
+</form>
+
+</html>
