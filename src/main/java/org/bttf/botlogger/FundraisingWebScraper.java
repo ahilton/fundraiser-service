@@ -21,7 +21,7 @@ public class FundraisingWebScraper {
     @Autowired
     private FundCache fundCache;
 
-    @Scheduled(fixedRate = 634050)
+    @Scheduled(fixedRate = 63040)
     public void pollDonations() throws IOException {
         log.info("Polling donations...");
 
